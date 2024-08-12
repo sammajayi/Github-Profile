@@ -33,7 +33,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("https://api.github.com/users/Pereweitom");
+        const response = await fetch("https://api.github.com/users/sammajayi");
         const result = await response.json();
         setAvatarURL(result.avatar_url);
         setGitHubUsername(result.login);

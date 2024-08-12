@@ -10,7 +10,7 @@ function App() {
 
   async function repoDataURL() {
     // Get repo data about github user
-    await fetch("https://api.github.com/users/Pereweitom/repos")
+    await fetch("https://api.github.com/users/sammajayi/repos")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -37,7 +37,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch("https://api.github.com/users/Pereweitom")
+    fetch("https://api.github.com/users/sammajayi")
       .then((res) => res.json())
       .then(
         (result) => {
